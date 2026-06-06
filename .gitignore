@@ -1,0 +1,44 @@
+# ============================================
+# FILES TO IGNORE ON GITHUB
+# ============================================
+
+# Data files 
+*.csv
+*.xlsx
+*.json
+
+# Model files 
+*.pkl
+*.joblib
+*.h5
+*.pb
+
+# Numpy arrays
+*.npy
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Environment
+venv/
+env/
+.env
+myenv/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -36,7 +36,7 @@ print("="*60)
 
 for name, model in models.items():
     model.fit(X_train, y_train)
-    print(f"✅ {name} trained successfully")
+    print(f"[SUCCESS] {name} trained successfully")
 
 # Evaluate models
 results = []
@@ -95,6 +95,7 @@ axes[1].tick_params(axis='x', rotation=45)
 
 plt.tight_layout()
 plt.savefig('model_comparison.png', dpi=300, bbox_inches='tight')
+plt.savefig('model_comparison.png', dpi=300, bbox_inches='tight')
 plt.show()
 
-print("\n✅ Model evaluation completed! Chart saved as 'model_comparison.png'")
+print("\n[SUCCESS] Model evaluation completed! Chart saved as 'model_comparison.png'")

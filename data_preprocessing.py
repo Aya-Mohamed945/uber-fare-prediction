@@ -9,9 +9,10 @@ import seaborn as sns
 from math import radians, sin, cos, sqrt, asin
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+import joblib
 
 # Load data
-df = pd.read_csv("/content/uber.csv")
+df = pd.read_csv("uber.csv")
 
 # Display sample
 print("Sample data:")
@@ -116,3 +117,6 @@ print("\n✅ Data preprocessing completed!")
 print(f"Training set size: {X_train_scaled.shape[0]}")
 print(f"Test set size: {X_test_scaled.shape[0]}")
 print(f"Number of features: {X_train_scaled.shape[1]}")
+
+joblib.dump(scaler, 'scaler.pkl')
+print("✅ Scaler saved successfully")
