@@ -301,14 +301,6 @@ python model_training_evaluation.py
 python hyperparameter_tuning.py
 ```
 
-### Or Run Everything Automatically
-
-```bash
-python run.py
-
-
-```bash
-
 ---
 
 ## 📦 Requirements
@@ -322,7 +314,6 @@ scikit-learn
 xgboost
 joblib
 ```
-
 Install all dependencies using:
 
 ```bash
