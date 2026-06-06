@@ -301,6 +301,11 @@ python model_training_evaluation.py
 python hyperparameter_tuning.py
 ```
 
+### Or Run Everything Automatically
+
+```bash
+python run.py
+
 ---
 
 ## 📦 Requirements
